@@ -21,3 +21,8 @@ const showTime = () => {
     console.log("hours" + hr + "mins" + min + "sec" + sec );
 }
 
+// let seconds = 0 ;
+// setInterval(() => {
+//     seconds++;
+// },1000);
+
