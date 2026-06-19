@@ -6,10 +6,11 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
     setInterval(showTime, 1000);
 
-    document.getElementById(start-btn).onclick = startFuntion;
-    document.getElementById(stop-btn).onclick = stopFunction;
+    document.getElementById("start-btn").onclick = startFuntion;
 
-    document.getElementById(reset-btn).onclick = resetFunction;
+    document.getElementById("stop-btn").onclick = stopFunction;
+
+    document.getElementById("reset-btn").onclick = resetFunction;
 
         
 
@@ -72,7 +73,7 @@ const resetFunction = () => {
     clearInterval(timer);
     timer = null ;
     seconds = 0 ;
-    stopwatchDisplay.innerHTML = "00:00:00" ;
+    stopwatchDisplay.innerHTML ="00:00:00";
 
 };
 
